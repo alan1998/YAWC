@@ -27,6 +27,8 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
+LIBS:MySymbols
+LIBS:MyComponents
 LIBS:contrib
 LIBS:valves
 LIBS:YAWC-cache
@@ -167,4 +169,76 @@ Text GLabel 4150 1150 1    60   Input ~ 0
 Vib
 Text GLabel 4350 1150 1    60   Input ~ 0
 Bth
+$Comp
+L MMA845Q U3
+U 1 1 539AF65E
+P 6250 2650
+F 0 "U3" H 6100 3300 60  0000 C CNN
+F 1 "MMA845Q" H 6350 2250 60  0000 C CNN
+F 2 "" H 6250 2650 60  0000 C CNN
+F 3 "" H 6250 2650 60  0000 C CNN
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+Text Label 5750 2150 2    60   ~ 0
+VCC
+Text Label 5750 2550 2    60   ~ 0
+GND
+Text Label 7150 2550 0    60   ~ 0
+GND
+Wire Wire Line
+	6850 2550 7150 2550
+Wire Wire Line
+	6850 2750 7150 2750
+Wire Wire Line
+	7150 2750 7150 2550
+$Comp
+L R R3
+U 1 1 539AF7E0
+P 5200 2150
+F 0 "R3" V 5280 2150 40  0000 C CNN
+F 1 "4k7" V 5207 2151 40  0000 C CNN
+F 2 "" V 5130 2150 30  0000 C CNN
+F 3 "" H 5200 2150 30  0000 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 539AF849
+P 4800 2150
+F 0 "R2" V 4880 2150 40  0000 C CNN
+F 1 "4k7" V 4807 2151 40  0000 C CNN
+F 2 "" V 4730 2150 30  0000 C CNN
+F 3 "" H 4800 2150 30  0000 C CNN
+	1    4800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1900 6850 1900
+Wire Wire Line
+	5750 1900 5750 2150
+Connection ~ 5200 1900
+Wire Wire Line
+	5200 2400 5200 2450
+Wire Wire Line
+	5200 2450 5750 2450
+Wire Wire Line
+	4800 2650 5750 2650
+Wire Wire Line
+	5750 2750 5650 2750
+Wire Wire Line
+	5650 2750 5650 2550
+Wire Wire Line
+	5650 2550 5750 2550
+Wire Wire Line
+	6850 1900 6850 2350
+Connection ~ 5750 1900
+Text GLabel 4800 2650 0    60   Input ~ 0
+SDA
+Text GLabel 5200 2450 0    60   Input ~ 0
+SCL
+Wire Wire Line
+	4800 2400 4800 2650
+Connection ~ 4950 2650
 $EndSCHEMATC
