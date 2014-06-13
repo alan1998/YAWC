@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 11/06/2014 21:18:34
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 13/06/2014 18:37:00
 
 BeginCmp
 TimeStamp = /5394B652;
@@ -57,6 +57,20 @@ IdModule  = Capacitors_SMD:c_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5394B774/539ADB47;
+Reference = J_Midi1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539AD121;
+Reference = J_Rst1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /538F66AD;
 Reference = P1;
 ValeurCmp = JST-PH_2;
@@ -92,6 +106,34 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /539AF849;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539AF7E0;
+Reference = R3;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539ADC21;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539AD3BB;
+Reference = SER1;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+EndCmp
+
+BeginCmp
 TimeStamp = /5394B774/53989F52;
 Reference = SWD1;
 ValeurCmp = CONN_5;
@@ -110,6 +152,13 @@ TimeStamp = /5394B774/5394B7AD;
 Reference = U2;
 ValeurCmp = SAMD20J18A-M;
 IdModule  = SMD_Packages:TQFP_64;
+EndCmp
+
+BeginCmp
+TimeStamp = /539AF65E;
+Reference = U3;
+ValeurCmp = MMA845Q;
+IdModule  = ;
 EndCmp
 
 EndListe
