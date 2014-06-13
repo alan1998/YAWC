@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name JST)(type KiCad)(uri J:\Users\Alan\Documents\Electronics\YAWC_Cir\JST.pretty)(options "")(descr ""))
+  (lib (name VishTrim)(type KiCad)(uri J:\Users\Alan\Documents\Electronics\YAWC_Cir\VishayTrim.pretty)(options "")(descr ""))
+  (lib (name Sensors)(type KiCad)(uri J:\Users\Alan\Documents\Electronics\YAWC_Cir\Sensor.pretty)(options "")(descr ""))
+  (lib (name Mount)(type KiCad)(uri J:\Users\Alan\Documents\Electronics\YAWC_Cir\Mount.pretty)(options "")(descr ""))
+)

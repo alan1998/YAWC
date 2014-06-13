@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name JST)(type KiCad)(uri ./JST.pretty)(options "")(descr ""))
+)

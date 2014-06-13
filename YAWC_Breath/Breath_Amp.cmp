@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 07/06/2014 16:37:27
+
+BeginCmp
+TimeStamp = /5392CEB2;
+Reference = C1;
+ValeurCmp = 2n;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53921326;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392E6C2;
+Reference = C3;
+ValeurCmp = 820n;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392E68F;
+Reference = C4;
+ValeurCmp = 82n;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539210A2;
+Reference = P1;
+ValeurCmp = J_IO;
+IdModule  = JST:JST-4-PH-RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393315D;
+Reference = P2;
+ValeurCmp = PressSens;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392CC96;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392CBFD;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392CC46;
+Reference = R3;
+ValeurCmp = 150k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392CC65;
+Reference = R4;
+ValeurCmp = 150k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392E5E2;
+Reference = R5;
+ValeurCmp = 316;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392E54F;
+Reference = R6;
+ValeurCmp = 3600;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539331B2;
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53921421;
+Reference = RV1;
+ValeurCmp = 100k;
+IdModule  = VishTrim:TSM4YL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53920E78;
+Reference = U1;
+ValeurCmp = MCP6002;
+IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5392CB85;
+Reference = U2;
+ValeurCmp = MPX12DP;
+IdModule  = Sensors:MPX1351-01;
+EndCmp
+
+EndListe

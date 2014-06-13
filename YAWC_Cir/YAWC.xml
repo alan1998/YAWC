@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>J:/Users/Alan/Documents/Electronics/YAWC_Cir/YAWC.sch</source>
+    <date>05/06/2014 16:31:14</date>
+    <tool>Eeschema (2014-05-27 BZR 4893)-product</tool>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_2</value>
+      <libsource lib="conn" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538F66AD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS769XX</value>
+      <footprint>SOT-23-5</footprint>
+      <libsource lib="regul" part="TPS769XX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538F6803</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538F685C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4u7</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538F6921</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_2">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="TPS769XX">
+      <description>TPS769xx-Q1, Ultra Low Power 100mA Low Drop Out Regulator 1.2...5V, SOT23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps76950-q1.pdf</docs>
+      <footprints>
+        <fp>SOT23*</fp>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS769XX</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~EN~" type="input"/>
+        <pin num="4" name="NC/FB" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="regul">
+      <uri>J:\Kicad4893\share\library\regul.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>J:\Kicad4893\share\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>J:\Kicad4893\share\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="/Vbatt">
+      <node ref="C1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+  </nets>
+</export>

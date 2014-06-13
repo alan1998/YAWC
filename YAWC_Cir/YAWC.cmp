@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 11/06/2014 21:18:34
+
+BeginCmp
+TimeStamp = /5394B652;
+Reference = Amp1;
+ValeurCmp = CONN_4;
+IdModule  = JST:JST-4-PH-RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /538F685C;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /538F6921;
+Reference = C2;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53973676;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539736A9;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539736C2;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539736DB;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/5397386B;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538F66AD;
+Reference = P1;
+ValeurCmp = JST-PH_2;
+IdModule  = JST:JST-2-PH-RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53973B2F;
+Reference = P3;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53973B8C;
+Reference = P4;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53973DA3;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53989FCC;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/53989F52;
+Reference = SWD1;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /538F6803;
+Reference = U1;
+ValeurCmp = TPS769XX;
+IdModule  = SMD_Packages:SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/5394B7AD;
+Reference = U2;
+ValeurCmp = SAMD20J18A-M;
+IdModule  = SMD_Packages:TQFP_64;
+EndCmp
+
+EndListe
