@@ -225,21 +225,21 @@ LH
 Text Notes 1400 4000 2    60   ~ 0
 Pin headers.
 Text Label 1700 4150 0    60   ~ 0
-Y4
-Text Label 1700 5050 0    60   ~ 0
-Y11
-Text Label 1700 4250 0    60   ~ 0
-Y2
-Text Label 1700 5150 0    60   ~ 0
-Y13
-Text Label 1700 4350 0    60   ~ 0
 Y14
-Text Label 1700 5250 0    60   ~ 0
+Text Label 1700 5050 0    60   ~ 0
 Y15
-Text Label 1700 4450 0    60   ~ 0
+Text Label 1700 4250 0    60   ~ 0
+Y13
+Text Label 1700 5150 0    60   ~ 0
+Y2
+Text Label 1700 4350 0    60   ~ 0
 Y12
-Text Label 1700 5350 0    60   ~ 0
+Text Label 1700 5250 0    60   ~ 0
 Y3
+Text Label 1700 4450 0    60   ~ 0
+Y11
+Text Label 1700 5350 0    60   ~ 0
+Y4
 Text Label 1700 4550 0    60   ~ 0
 Y10
 Text Label 1700 5450 0    60   ~ 0
@@ -533,4 +533,49 @@ Wire Wire Line
 Wire Wire Line
 	8450 4150 7550 4150
 Connection ~ 1400 1250
+$Comp
+L CONN_3X2 P2
+U 1 1 539DD48F
+P 1550 2700
+F 0 "P2" H 1550 2950 50  0000 C CNN
+F 1 "Btns" V 1550 2750 40  0000 C CNN
+F 2 "" H 1550 2700 60  0000 C CNN
+F 3 "" H 1550 2700 60  0000 C CNN
+	1    1550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 539DD52C
+P 900 2900
+F 0 "#PWR010" H 900 2900 30  0001 C CNN
+F 1 "GND" H 900 2830 30  0001 C CNN
+F 2 "" H 900 2900 60  0000 C CNN
+F 3 "" H 900 2900 60  0000 C CNN
+	1    900  2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2900 900  2550
+Wire Wire Line
+	900  2550 1150 2550
+Wire Wire Line
+	1150 2750 900  2750
+Connection ~ 900  2750
+Text Label 1150 2650 2    60   ~ 0
+PB11
+Text Label 1950 2550 0    60   ~ 0
+PB12
+Text Label 1950 2650 0    60   ~ 0
+PB13
+Text Label 1950 2750 0    60   ~ 0
+PB14
+Text Label 3850 3150 2    60   ~ 0
+PB11
+Text Label 3850 3250 2    60   ~ 0
+PB12
+Text Label 3850 3350 2    60   ~ 0
+PB13
+Text Label 3850 3450 2    60   ~ 0
+PB14
 $EndSCHEMATC
