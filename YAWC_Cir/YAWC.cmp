@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 15/06/2014 18:17:05
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 6/16/2014 9:28:14 AM
 
 BeginCmp
 TimeStamp = /5394B652;
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /5394B774/539ADB47;
 Reference = J_Midi1;
 ValeurCmp = CONN_2;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+IdModule  = PIN_Hrd:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /5394B774/539AD121;
 Reference = J_Rst1;
 ValeurCmp = CONN_2;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+IdModule  = PIN_Hrd:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
@@ -81,28 +81,28 @@ BeginCmp
 TimeStamp = /5394B774/539DD48F;
 Reference = P2;
 ValeurCmp = Btns;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+IdModule  = PIN_Hrd:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /5394B774/53973B2F;
 Reference = P3;
 ValeurCmp = CONN_5;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
+IdModule  = PIN_Hrd:Pin_Header_Angled_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /5394B774/53973B8C;
 Reference = P4;
 ValeurCmp = CONN_5;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
+IdModule  = PIN_Hrd:Pin_Header_Angled_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /5394B774/53973DA3;
 Reference = P5;
 ValeurCmp = CONN_6;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+IdModule  = PIN_Hrd:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /5394B774/539AD3BB;
 Reference = SER1;
 ValeurCmp = CONN_3X2;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+IdModule  = PIN_Hrd:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /5394B774/53989F52;
 Reference = SWD1;
 ValeurCmp = CONN_5;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+IdModule  = PIN_Hrd:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
