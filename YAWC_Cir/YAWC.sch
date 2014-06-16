@@ -85,8 +85,6 @@ Connection ~ 2200 1550
 Wire Wire Line
 	2200 1950 2200 2200
 Wire Wire Line
-	1800 2000 3900 2000
-Wire Wire Line
 	1800 2000 1800 1750
 Connection ~ 2200 2000
 Text Label 1800 1550 0    60   ~ 0
@@ -119,12 +117,6 @@ F 3 "" H 3900 1750 60  0000 C CNN
 	1    3900 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 2000 3900 1950
-Connection ~ 3200 2000
-Wire Wire Line
-	2750 1700 2750 2000
-Connection ~ 2750 2000
 $Comp
 L CONN_4 Amp1
 U 1 1 5394B652
@@ -142,21 +134,6 @@ U 5394B774
 F0 "Micro" 60
 F1 "Micro.sch" 60
 $EndSheet
-$Comp
-L GND #PWR02
-U 1 1 5398AB48
-P 2000 3300
-F 0 "#PWR02" H 2000 3300 30  0001 C CNN
-F 1 "GND" H 2000 3230 30  0001 C CNN
-F 2 "" H 2000 3300 60  0000 C CNN
-F 3 "" H 2000 3300 60  0000 C CNN
-	1    2000 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 3150 2000 3150
-Wire Wire Line
-	2000 3150 2000 3300
 Text GLabel 3600 1150 1    60   Input ~ 0
 GND
 Text Label 1800 3050 0    60   ~ 0
@@ -241,4 +218,52 @@ SCL
 Wire Wire Line
 	4800 2400 4800 2650
 Connection ~ 4950 2650
+NoConn ~ 6850 2450
+NoConn ~ 6850 2650
+NoConn ~ 6850 2850
+NoConn ~ 3650 1700
+NoConn ~ 5750 2350
+NoConn ~ 6850 2250
+NoConn ~ 6850 2150
+NoConn ~ 5750 2850
+NoConn ~ 5750 2250
+Wire Wire Line
+	1800 3150 2000 3150
+Wire Wire Line
+	3200 2000 3200 2350
+Wire Wire Line
+	1800 2000 2200 2000
+Text Label 2000 3150 0    60   ~ 0
+GND
+$Comp
+L GND #PWR02
+U 1 1 539EE6EA
+P 2000 3250
+F 0 "#PWR02" H 2000 3250 30  0001 C CNN
+F 1 "GND" H 2000 3180 30  0001 C CNN
+F 2 "" H 2000 3250 60  0000 C CNN
+F 3 "" H 2000 3250 60  0000 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3150 2000 3250
+$Comp
+L GND #PWR03
+U 1 1 539EF1A8
+P 3200 2350
+F 0 "#PWR03" H 3200 2350 30  0001 C CNN
+F 1 "GND" H 3200 2280 30  0001 C CNN
+F 2 "" H 3200 2350 60  0000 C CNN
+F 3 "" H 3200 2350 60  0000 C CNN
+	1    3200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1700 2750 2000
+Wire Wire Line
+	2750 2000 3900 2000
+Wire Wire Line
+	3900 2000 3900 1950
+Connection ~ 3200 2000
 $EndSCHEMATC

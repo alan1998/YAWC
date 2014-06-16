@@ -1,10 +1,24 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 6/16/2014 9:28:14 AM
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 6/16/2014 11:32:39 AM
 
 BeginCmp
 TimeStamp = /5394B652;
 Reference = Amp1;
 ValeurCmp = CONN_4;
 IdModule  = JST:JST-4-PH-RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539ECD18;
+Reference = ATP1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_Hrd:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539ECD77;
+Reference = ATP2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_Hrd:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -54,6 +68,13 @@ TimeStamp = /5394B774/5397386B;
 Reference = C7;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539ED0A8;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -131,6 +152,13 @@ TimeStamp = /5394B774/539ADC21;
 Reference = R4;
 ValeurCmp = R;
 IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394B774/539ED159;
+Reference = R5;
+ValeurCmp = 350;
+IdModule  = CAP_SMD:c_0805;
 EndCmp
 
 BeginCmp
