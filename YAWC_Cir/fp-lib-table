@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name JST)(type KiCad)(uri ./JST.pretty)(options "")(descr ""))
   (lib (name SMD)(type KiCad)(uri ./SMD_Mine.pretty)(options "")(descr ""))
+  (lib (name PIN_Hdr)(type KiCad)(uri ./My_Pin_Headers.pretty)(options "")(descr ""))
 )

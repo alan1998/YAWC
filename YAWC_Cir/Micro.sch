@@ -223,17 +223,17 @@ Y10
 Text Label 1700 5450 0    60   ~ 0
 Y5
 Text Label 1650 6000 0    60   ~ 0
-Y0
-Text Label 1650 6100 0    60   ~ 0
-Y1
-Text Label 1650 6200 0    60   ~ 0
-Y9
-Text Label 1650 6300 0    60   ~ 0
-Y8
-Text Label 1650 6400 0    60   ~ 0
-Y7
-Text Label 1650 6500 0    60   ~ 0
 Y6
+Text Label 1650 6100 0    60   ~ 0
+Y7
+Text Label 1650 6200 0    60   ~ 0
+Y8
+Text Label 1650 6300 0    60   ~ 0
+Y9
+Text Label 1650 6400 0    60   ~ 0
+Y0
+Text Label 1650 6500 0    60   ~ 0
+Y1
 Text Label 3850 1850 2    60   ~ 0
 Reset
 $Comp
@@ -482,13 +482,13 @@ F 3 "" H 1550 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1150 2650 2    60   ~ 0
-PB12
+PB14
 Text Label 1950 2550 0    60   ~ 0
 PB11
 Text Label 1950 2650 0    60   ~ 0
-PB13
+PB12
 Text Label 1950 2750 0    60   ~ 0
-PB14
+PB13
 Text Label 3850 3150 2    60   ~ 0
 PB11
 Text Label 3850 3250 2    60   ~ 0
@@ -650,4 +650,10 @@ Wire Wire Line
 	950  1650 950  2750
 Wire Wire Line
 	5700 5050 5700 5400
+Wire Wire Line
+	7700 2750 7700 2850
+Wire Wire Line
+	7700 2850 7850 2850
+Text GLabel 7850 2850 2    60   Input ~ 0
+BatSample
 $EndSCHEMATC

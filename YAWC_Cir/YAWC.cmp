@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 6/16/2014 11:32:39 AM
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = 18/06/2014 17:59:46
 
 BeginCmp
 TimeStamp = /5394B652;
 Reference = Amp1;
 ValeurCmp = CONN_4;
-IdModule  = JST:JST-4-PH-RA;
+IdModule  = PIN_Hdr:Pin_Header_Angled_1x04;
 EndCmp
 
 BeginCmp
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /5394B774/539ED0A8;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = SMD:LED-1206;
 EndCmp
 
 BeginCmp
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /538F66AD;
 Reference = P1;
 ValeurCmp = JST-PH_2;
-IdModule  = JST:JST-2-PH-RA;
+IdModule  = PIN_Hdr:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /5394B774/53989FCC;
 Reference = R1;
 ValeurCmp = 100k;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -158,7 +158,21 @@ BeginCmp
 TimeStamp = /5394B774/539ED159;
 Reference = R5;
 ValeurCmp = 350;
-IdModule  = CAP_SMD:c_0805;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1C4D0;
+Reference = R6;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1C505;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -172,7 +186,7 @@ BeginCmp
 TimeStamp = /5394B774/53989F52;
 Reference = SWD1;
 ValeurCmp = CONN_5;
-IdModule  = PIN_Hrd:Pin_Header_Straight_1x05;
+IdModule  = PIN_Hdr:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp

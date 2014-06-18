@@ -79,8 +79,6 @@ F 3 "" H 2200 1750 60  0000 C CNN
 	1    2200 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 1550 2750 1550
 Connection ~ 2200 1550
 Wire Wire Line
 	2200 1950 2200 2200
@@ -266,4 +264,46 @@ Wire Wire Line
 Wire Wire Line
 	3900 2000 3900 1950
 Connection ~ 3200 2000
+Wire Wire Line
+	1800 1550 2750 1550
+$Comp
+L R R6
+U 1 1 53A1C4D0
+P 2450 1850
+F 0 "R6" V 2530 1850 40  0000 C CNN
+F 1 "4k" V 2457 1851 40  0000 C CNN
+F 2 "" V 2380 1850 30  0000 C CNN
+F 3 "" H 2450 1850 30  0000 C CNN
+	1    2450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 53A1C505
+P 2450 2450
+F 0 "R7" V 2530 2450 40  0000 C CNN
+F 1 "1k" V 2457 2451 40  0000 C CNN
+F 2 "" V 2380 2450 30  0000 C CNN
+F 3 "" H 2450 2450 30  0000 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1600 2450 1550
+Connection ~ 2450 1550
+Wire Wire Line
+	2450 2200 2450 2100
+Wire Wire Line
+	2450 2700 2700 2700
+Wire Wire Line
+	2700 2700 2700 2250
+Wire Wire Line
+	2700 2250 3200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	2450 2200 2850 2200
+Text GLabel 2850 2550 2    60   Input ~ 0
+BatSample
+Wire Wire Line
+	2850 2200 2850 2550
 $EndSCHEMATC
