@@ -377,31 +377,15 @@ Wire Wire Line
 Wire Wire Line
 	7550 3450 9250 3450
 Wire Wire Line
-	9250 3450 9250 4150
-Wire Wire Line
-	9250 4150 9950 4150
-Wire Wire Line
 	7550 3550 9700 3550
 Wire Wire Line
-	9700 3550 9700 3350
-Wire Wire Line
-	9700 3350 9950 3350
-Wire Wire Line
-	7550 3650 9150 3650
-Wire Wire Line
-	9150 3650 9150 4200
-Wire Wire Line
-	9150 4200 10050 4200
+	7550 3650 9800 3650
 Wire Wire Line
 	10050 4200 10050 4150
 Wire Wire Line
 	7550 3750 9650 3750
 Wire Wire Line
-	9650 3750 9650 3300
-Wire Wire Line
-	9650 3300 10050 3300
-Wire Wire Line
-	10050 3300 10050 3350
+	10050 3200 10050 3350
 Text Label 10150 3350 0    60   ~ 0
 VCC
 $Comp
@@ -419,7 +403,7 @@ Text Label 9250 3450 0    60   ~ 0
 S1P0
 Text Label 9350 3550 0    60   ~ 0
 S1P1
-Text Label 9150 4050 2    60   ~ 0
+Text Label 9950 3350 2    60   ~ 0
 S1P2
 Text Label 9350 3750 0    60   ~ 0
 S1P3
@@ -656,4 +640,24 @@ Wire Wire Line
 	7700 2850 7850 2850
 Text GLabel 7850 2850 2    60   Input ~ 0
 BatSample
+Wire Wire Line
+	9650 3750 9650 4150
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 9950 4150
+Wire Wire Line
+	9250 3200 10050 3200
+Connection ~ 9250 3450
+Wire Wire Line
+	9250 3450 9250 3200
+Wire Wire Line
+	9700 3550 9700 4200
+Connection ~ 9700 4200
+Wire Wire Line
+	9700 4200 10050 4200
+Wire Wire Line
+	9800 3650 9800 3350
+Wire Wire Line
+	9800 3350 9950 3350
+Connection ~ 9150 3650
 $EndSCHEMATC
