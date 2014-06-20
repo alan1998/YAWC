@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/YAWC_2/YAWC/YAWC_Cir/YAWC.sch)
-    (date "6/19/2014 8:59:21 AM")
+    (date "6/20/2014 1:28:35 PM")
     (tool "Eeschema (2014-05-27 BZR 4893)-product"))
   (components
     (comp (ref P1)
