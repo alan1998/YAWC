@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_1X02 (layer F.Cu)
+(module Pin_Header_Straight_1x02 (layer F.Cu)
   (descr "1 pin")
   (tags "CONN DEV")
   (fp_text reference PIN_HEADER_S_1X02 (at 0 -2.286) (layer F.SilkS)
