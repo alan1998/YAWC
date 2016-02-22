@@ -1,0 +1,53 @@
+Source file: C:/YAWC_2/YAWC/YAWC_Cir/YAWC.sch						
+Date: 6/20/2014 1:28:41 PM						
+Ref	Value	Footprint	Suppler	Man Part	Part No	On hand
+    Amp1	CONN_4					
+    ATP1	CONN_1					
+    ATP2	CONN_1					
+    C1	1u	1206				
+    C2	4u7	1206				
+    C3	100n	603				
+    C4	100n	603				
+    C5	100n	603				
+    C6	100n	603				
+    C7	100n	603				
+    D1	LED					
+    J_Midi1	CONN_2					
+    J_Rst1	CONN_2					
+    P1	JST-PH_2					
+    P2	Btns					
+    P3	CONN_5					
+    P4	CONN_5					
+    P5	CONN_6					
+    R1	100k	805				
+    R2	4k7	805				
+    R3	4k7	805				
+    R4	R	805				Midi drive
+    R5	350	805				What needed LED drive?
+    R6	4k	805				4k7 will do
+    R7	1k	805				
+    SER1	CONN_3X2					
+    SWD1	CONN_5					
+    U1	TPS769XX	SOT-23-5				
+    U2	SAMD20J18A-M	QFN64				
+    U3	MMA845Q	QFN16				
+  						
+Source file: J:/Users/Alan/Documents/Electronics/YAWC/YAWC_Breath/Breath_Amp.sch						
+Date: 20/06/2014 17:43:59						
+Ref	Value	Footprint	Suppler	Man Part	Part No	On hand
+    C1	2n	805				Have 2n7 so get low
+    C2	1u	1206				
+    C3	820n	805				
+    C4	82n	805				
+    P1	J_IO	JST 4 pin				
+    P2	PressSens	2 pin				
+    R1	10k	805				
+    R2	10k	805				
+    R3	150k	805				
+    R4	150k	805				
+    R5	316	805				
+    R6	3600	805				
+    R7	100	805				
+    RV1	100k 			TSM4YL		
+    U1	MCP6002	SOIC 8_N				
+    U2	MPX12DP					
