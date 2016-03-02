@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>J:/Users/Alan/Documents/Electronics/YAWC/YAWC_Breath/Breath_Amp.sch</source>
+    <date>20/06/2014 17:43:59</date>
+    <tool>Eeschema (2014-05-27 BZR 4893)-product</tool>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MCP6002</value>
+      <fields>
+        <field name="F#">133-2118</field>
+      </fields>
+      <libsource lib="MyComponents" part="MCP6002"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53920E78</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>J_IO</value>
+      <libsource lib="conn" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>539210A2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53921326</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <fields>
+        <field name="F#">114-1366</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53921421</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MPX12DP</value>
+      <libsource lib="MyComponents" part="MPX12DP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CB85</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CBFD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>150k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CC46</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>150k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CC65</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CC96</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392CEB2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3600</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392E54F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>316</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392E5E2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>82n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392E68F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>820n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5392E6C2</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PressSens</value>
+      <libsource lib="conn" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5393315D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>539331B2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyComponents" part="MCP6002">
+      <description>Dual Voltage Comparator</description>
+      <docs>ns/lm193.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="_" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyComponents" part="MPX12DP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPX12DP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="Vcc" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_2">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_4">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MyComponents">
+      <uri>..\YAWC_Cir\MyComponents.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>J:\Kicad4893\share\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>J:\Kicad4893\share\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R2-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="/Pout">
+      <node ref="P1" pin="4"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="6" name="/Bout">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R1-Pad2)">
+      <node ref="U2" pin="8"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="10" name="VCC">
+      <node ref="U1" pin="8"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(RV1-Pad3)">
+      <node ref="RV1" pin="3"/>
+    </net>
+  </nets>
+</export>
