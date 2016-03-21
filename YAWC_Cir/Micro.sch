@@ -1,0 +1,644 @@
+EESchema Schematic File Version 2
+LIBS:YAWC-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:MySymbols
+LIBS:MyComponents
+LIBS:contrib
+LIBS:valves
+LIBS:YAWC-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SAMD20J18A-M U2
+U 1 1 5394B7AD
+P 5700 3300
+F 0 "U2" H 4050 4950 40  0000 C CNN
+F 1 "SAMD20J18A-M" H 7150 1650 40  0000 C CNN
+F 2 "SMD:TQFP_64" H 5700 2150 32  0001 C CIN
+F 3 "" H 5700 3550 60  0000 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 1100 1    60   Input ~ 0
+VCC
+Text GLabel 1500 1150 1    60   Input ~ 0
+VCC
+$Comp
+L C-RESCUE-YAWC C3
+U 1 1 53973676
+P 1150 1450
+AR Path="/53973676" Ref="C3"  Part="1" 
+AR Path="/5394B774/53973676" Ref="C3"  Part="1" 
+F 0 "C3" H 1150 1550 40  0000 L CNN
+F 1 "100n" H 1156 1365 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1188 1300 30  0001 C CNN
+F 3 "" H 1150 1450 60  0000 C CNN
+	1    1150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-YAWC C4
+U 1 1 539736A9
+P 1400 1450
+AR Path="/539736A9" Ref="C4"  Part="1" 
+AR Path="/5394B774/539736A9" Ref="C4"  Part="1" 
+F 0 "C4" H 1400 1550 40  0000 L CNN
+F 1 "100n" H 1406 1365 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1438 1300 30  0001 C CNN
+F 3 "" H 1400 1450 60  0000 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-YAWC C5
+U 1 1 539736C2
+P 1650 1450
+AR Path="/539736C2" Ref="C5"  Part="1" 
+AR Path="/5394B774/539736C2" Ref="C5"  Part="1" 
+F 0 "C5" H 1650 1550 40  0000 L CNN
+F 1 "100n" H 1656 1365 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1688 1300 30  0001 C CNN
+F 3 "" H 1650 1450 60  0000 C CNN
+	1    1650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-YAWC C6
+U 1 1 539736DB
+P 1900 1450
+AR Path="/539736DB" Ref="C6"  Part="1" 
+AR Path="/5394B774/539736DB" Ref="C6"  Part="1" 
+F 0 "C6" H 1900 1550 40  0000 L CNN
+F 1 "100n" H 1906 1365 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1938 1300 30  0001 C CNN
+F 3 "" H 1900 1450 60  0000 C CNN
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-YAWC C7
+U 1 1 5397386B
+P 4550 1300
+AR Path="/5397386B" Ref="C7"  Part="1" 
+AR Path="/5394B774/5397386B" Ref="C7"  Part="1" 
+F 0 "C7" H 4550 1400 40  0000 L CNN
+F 1 "100n" H 4556 1215 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 1150 30  0001 C CNN
+F 3 "" H 4550 1300 60  0000 C CNN
+	1    4550 1300
+	0    1    1    0   
+$EndComp
+Text Label 7550 2050 0    60   ~ 0
+Y0
+Text Label 7550 2150 0    60   ~ 0
+Y1
+Text Label 7550 2250 0    60   ~ 0
+Y2
+Text Label 7550 2350 0    60   ~ 0
+Y3
+Text Label 7550 2450 0    60   ~ 0
+Y4
+Text Label 7550 2550 0    60   ~ 0
+Y5
+Text Label 3850 2050 2    60   ~ 0
+Y6
+Text Label 3850 2150 2    60   ~ 0
+Y7
+Text Label 3850 2250 2    60   ~ 0
+Y8
+Text Label 3850 2350 2    60   ~ 0
+Y9
+Text Label 3850 2450 2    60   ~ 0
+Y10
+Text Label 3850 2550 2    60   ~ 0
+Y11
+Text Label 3850 2650 2    60   ~ 0
+Y12
+Text Label 3850 2750 2    60   ~ 0
+Y13
+Text Label 3850 2850 2    60   ~ 0
+Y14
+Text Label 3850 2950 2    60   ~ 0
+Y15
+Text Notes 2250 1150 2    60   ~ 0
+Close to chip
+$Comp
+L CONN_5 P3
+U 1 1 53973B2F
+P 1300 4350
+F 0 "P3" V 1250 4350 50  0000 C CNN
+F 1 "CONN_5" V 1350 4350 50  0000 C CNN
+F 2 "PIN_Hdr:Pin_Header_Straight_1x05" H 1300 4350 60  0001 C CNN
+F 3 "" H 1300 4350 60  0000 C CNN
+	1    1300 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P4
+U 1 1 53973B8C
+P 1300 5250
+F 0 "P4" V 1250 5250 50  0000 C CNN
+F 1 "CONN_5" V 1350 5250 50  0000 C CNN
+F 2 "JST:S5B-XH" H 1300 5250 60  0001 C CNN
+F 3 "" H 1300 5250 60  0000 C CNN
+	1    1300 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P5
+U 1 1 53973DA3
+P 1300 6250
+F 0 "P5" V 1250 6250 60  0000 C CNN
+F 1 "CONN_6" V 1350 6250 60  0000 C CNN
+F 2 "PIN_Hdr:Pin_Header_Straight_1x06" H 1300 6250 60  0001 C CNN
+F 3 "" H 1300 6250 60  0000 C CNN
+	1    1300 6250
+	-1   0    0    -1  
+$EndComp
+Text Notes 1350 6700 2    60   ~ 0
+RH
+Text Notes 1450 5650 2    60   ~ 0
+Octave
+Text Notes 1250 4750 2    60   ~ 0
+LH
+Text Notes 1400 4000 2    60   ~ 0
+Pin headers.
+Text Label 1700 4150 0    60   ~ 0
+Y15
+Text Label 1700 5050 0    60   ~ 0
+Y10
+Text Label 1700 4250 0    60   ~ 0
+Y2
+Text Label 1700 5150 0    60   ~ 0
+Y11
+Text Label 1700 4350 0    60   ~ 0
+Y3
+Text Label 1700 5250 0    60   ~ 0
+Y12
+Text Label 1700 4450 0    60   ~ 0
+Y4
+Text Label 1700 5350 0    60   ~ 0
+Y13
+Text Label 1700 4550 0    60   ~ 0
+Y5
+Text Label 1700 5450 0    60   ~ 0
+Y14
+Text Label 1650 6000 0    60   ~ 0
+Y6
+Text Label 1650 6100 0    60   ~ 0
+Y7
+Text Label 1650 6200 0    60   ~ 0
+Y8
+Text Label 1650 6300 0    60   ~ 0
+Y9
+Text Label 1650 6400 0    60   ~ 0
+Y0
+Text Label 1650 6500 0    60   ~ 0
+Y1
+Text Label 3850 1850 2    60   ~ 0
+Reset
+$Comp
+L CONN_5 SWD1
+U 1 1 53989F52
+P 10400 2000
+F 0 "SWD1" V 10350 2000 50  0000 C CNN
+F 1 "CONN_5" V 10450 2000 50  0000 C CNN
+F 2 "PIN_Hdr:Pin_Header_Straight_1x05" H 10400 2000 60  0001 C CNN
+F 3 "" H 10400 2000 60  0000 C CNN
+	1    10400 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 1050 1    60   Input ~ 0
+VCC
+$Comp
+L R-RESCUE-YAWC R1
+U 1 1 53989FCC
+P 9700 1400
+F 0 "R1" V 9780 1400 40  0000 C CNN
+F 1 "100k" V 9707 1401 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 1400 30  0001 C CNN
+F 3 "" H 9700 1400 30  0000 C CNN
+	1    9700 1400
+	1    0    0    -1  
+$EndComp
+Text Label 10000 1800 1    60   ~ 0
+Reset
+Text Label 7550 4650 0    60   ~ 0
+SWCLK
+Text Label 7550 4750 0    60   ~ 0
+SWDIO
+Text Label 10000 1900 2    60   ~ 0
+SWDIO
+Text Label 10000 2000 2    60   ~ 0
+SWCLK
+Text GLabel 9700 2200 0    60   Input ~ 0
+GND
+Text Label 7550 2850 0    60   ~ 0
+Vib
+Text Label 7550 2950 0    60   ~ 0
+Bth
+Text GLabel 9400 2800 2    60   Input ~ 0
+Vib
+Text GLabel 9400 2950 2    60   Input ~ 0
+Bth
+$Comp
+L CONN_2 J_Rst1
+U 1 1 539AD121
+P 10450 2850
+F 0 "J_Rst1" V 10400 2850 40  0000 C CNN
+F 1 "J_Reset" V 10500 2850 40  0000 C CNN
+F 2 "JST:S2B-XH" H 10450 2850 60  0001 C CNN
+F 3 "" H 10450 2850 60  0000 C CNN
+	1    10450 2850
+	1    0    0    1   
+$EndComp
+Text Label 10100 2750 2    60   ~ 0
+Reset
+$Comp
+L CONN_3X2 SER1
+U 1 1 539AD3BB
+P 10100 3750
+F 0 "SER1" H 10100 4000 50  0000 C CNN
+F 1 "CONN_3X2" V 10100 3800 40  0000 C CNN
+F 2 "PIN_Hdr:Pin_Header_Angled_2x03" H 10100 3750 60  0001 C CNN
+F 3 "" H 10100 3750 60  0000 C CNN
+	1    10100 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 5050 5400 5250
+Wire Wire Line
+	5100 1550 5100 1200
+Wire Wire Line
+	5100 1200 5950 1200
+Wire Wire Line
+	5400 1200 5400 1100
+Connection ~ 5300 1200
+Wire Wire Line
+	5500 1200 5500 1550
+Connection ~ 5400 1200
+Wire Wire Line
+	5600 1200 5600 1550
+Connection ~ 5500 1200
+Wire Wire Line
+	5700 1200 5700 1550
+Connection ~ 5600 1200
+Wire Wire Line
+	5950 1200 5950 1550
+Connection ~ 5700 1200
+Wire Wire Line
+	1150 1250 1900 1250
+Connection ~ 1650 1250
+Wire Wire Line
+	950  1650 3350 1650
+Connection ~ 1400 1650
+Connection ~ 1650 1650
+Connection ~ 1500 1650
+Wire Wire Line
+	1500 1150 1500 1250
+Connection ~ 1500 1250
+Wire Wire Line
+	3350 1300 4350 1300
+Wire Wire Line
+	4750 1300 5300 1300
+Wire Wire Line
+	5300 1300 5300 1550
+Wire Wire Line
+	9700 1150 9700 1050
+Wire Wire Line
+	9700 1650 9700 1800
+Connection ~ 9700 1800
+Wire Wire Line
+	9700 1800 10000 1800
+Wire Wire Line
+	9700 2200 10000 2200
+Wire Wire Line
+	10000 2100 9500 2100
+Wire Wire Line
+	9500 2100 9500 1150
+Wire Wire Line
+	8300 1150 9700 1150
+Wire Wire Line
+	7550 3450 9250 3450
+Wire Wire Line
+	7550 3550 9700 3550
+Wire Wire Line
+	7550 3650 9800 3650
+Wire Wire Line
+	10050 4200 10050 4150
+Wire Wire Line
+	7550 3750 9650 3750
+Wire Wire Line
+	10050 3200 10050 3350
+Text Label 10150 3350 0    60   ~ 0
+VCC
+Text Label 9250 3450 0    60   ~ 0
+S1P0
+Text Label 9350 3550 0    60   ~ 0
+S1P1
+Text Label 9950 3350 2    60   ~ 0
+S1P2
+Text Label 9350 3750 0    60   ~ 0
+S1P3
+Wire Wire Line
+	7550 3050 7800 3050
+Text Label 7800 3050 0    60   ~ 0
+Tx
+$Comp
+L CONN_2 J_Midi1
+U 1 1 539ADB47
+P 10500 4750
+F 0 "J_Midi1" V 10450 4750 40  0000 C CNN
+F 1 "CONN_2" V 10550 4750 40  0000 C CNN
+F 2 "JST:S2B-XH" H 10500 4750 60  0001 C CNN
+F 3 "" H 10500 4750 60  0000 C CNN
+	1    10500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-YAWC R4
+U 1 1 539ADC21
+P 9700 4650
+F 0 "R4" V 9780 4650 40  0000 C CNN
+F 1 "R" V 9707 4651 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 4650 30  0001 C CNN
+F 3 "" H 9700 4650 30  0000 C CNN
+	1    9700 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 4650 10150 4650
+Wire Wire Line
+	9450 4650 9250 4650
+Text Label 9250 4650 2    60   ~ 0
+Tx
+Wire Wire Line
+	10000 4850 10150 4850
+Connection ~ 1400 1250
+$Comp
+L CONN_1 ATP2
+U 1 1 539ECD77
+P 7850 2750
+F 0 "ATP2" H 7930 2750 40  0000 L CNN
+F 1 "CONN_1" H 7850 2805 30  0001 C CNN
+F 2 "PIN_Hdr:Pin_Header_Straight_1x01" H 7850 2750 60  0001 C CNN
+F 3 "" H 7850 2750 60  0000 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2650 8300 2650
+Wire Wire Line
+	7700 2750 7550 2750
+$Comp
+L LED-RESCUE-YAWC D1
+U 1 1 539ED0A8
+P 3350 4050
+F 0 "D1" H 3350 4150 50  0000 C CNN
+F 1 "LED" H 3350 3950 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3350 4050 60  0001 C CNN
+F 3 "" H 3350 4050 60  0000 C CNN
+	1    3350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4050 3850 4050
+$Comp
+L R-RESCUE-YAWC R5
+U 1 1 539ED159
+P 2750 4050
+F 0 "R5" V 2830 4050 40  0000 C CNN
+F 1 "350" V 2757 4051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2680 4050 30  0001 C CNN
+F 3 "" H 2750 4050 30  0000 C CNN
+	1    2750 4050
+	0    1    1    0   
+$EndComp
+Text Label 2500 4050 2    60   ~ 0
+VCC
+Wire Wire Line
+	3000 4050 3150 4050
+NoConn ~ 3850 3050
+NoConn ~ 3850 3550
+NoConn ~ 3850 3650
+NoConn ~ 3850 3750
+NoConn ~ 3850 3850
+NoConn ~ 3850 3950
+NoConn ~ 7550 4250
+NoConn ~ 7550 4350
+NoConn ~ 7550 4450
+NoConn ~ 7550 4550
+NoConn ~ 7550 3950
+NoConn ~ 7550 3850
+NoConn ~ 7550 3350
+NoConn ~ 7550 3250
+NoConn ~ 7550 3150
+NoConn ~ 7550 1850
+NoConn ~ 7550 1950
+Wire Wire Line
+	5400 5250 5950 5250
+Wire Wire Line
+	5950 5250 5950 5050
+Wire Wire Line
+	950  2550 1300 2550
+Text GLabel 1750 1900 3    60   Input ~ 0
+GND
+Wire Wire Line
+	1750 1900 1750 1650
+Connection ~ 1750 1650
+Connection ~ 1150 1650
+Connection ~ 950  2550
+Text Label 5400 5250 2    60   ~ 0
+GND
+Wire Wire Line
+	5500 5050 5500 5250
+Connection ~ 5500 5250
+Wire Wire Line
+	5600 5050 5600 5250
+Connection ~ 5600 5250
+Connection ~ 5700 5250
+Wire Wire Line
+	7700 2750 7700 2850
+Wire Wire Line
+	7700 2850 7850 2850
+Text GLabel 7850 2850 2    60   Input ~ 0
+BatSample
+Wire Wire Line
+	9650 3750 9650 4150
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 9950 4150
+Wire Wire Line
+	9250 3200 10050 3200
+Connection ~ 9250 3450
+Wire Wire Line
+	9250 3450 9250 3200
+Wire Wire Line
+	9700 3550 9700 4200
+Connection ~ 9700 4200
+Wire Wire Line
+	9700 4200 10050 4200
+Wire Wire Line
+	9800 3650 9800 3350
+Wire Wire Line
+	9800 3350 9950 3350
+Connection ~ 9150 3650
+Text GLabel 10000 4850 0    60   Input ~ 0
+VCC
+$Comp
+L R-RESCUE-YAWC R2
+U 1 1 56C662BF
+P 2750 4350
+F 0 "R2" V 2830 4350 40  0000 C CNN
+F 1 "R" V 2757 4351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2680 4350 30  0001 C CNN
+F 3 "" H 2750 4350 30  0000 C CNN
+	1    2750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 56C663BA
+P 3350 4350
+F 0 "D2" H 3350 4450 50  0000 C CNN
+F 1 "LED" H 3350 4250 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3350 4350 50  0001 C CNN
+F 3 "" H 3350 4350 50  0000 C CNN
+	1    3350 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4050 2500 4350
+Wire Wire Line
+	3000 4350 3150 4350
+Wire Wire Line
+	3550 4350 3700 4350
+Wire Wire Line
+	3700 4350 3700 4150
+Wire Wire Line
+	3700 4150 3850 4150
+Text Notes 3600 4650 2    60   ~ 0
+2.5mm pitch\nThru hole
+$Comp
+L CONN_01X03 P8
+U 1 1 56C85458
+P 8700 1900
+F 0 "P8" H 8700 2100 50  0000 C CNN
+F 1 "J_Pot" V 8800 1900 50  0000 C CNN
+F 2 "JST:S3B-XH" H 8700 1900 50  0001 C CNN
+F 3 "" H 8700 1900 50  0000 C CNN
+	1    8700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-YAWC R3
+U 1 1 56C854B7
+P 8300 1550
+F 0 "R3" V 8380 1550 40  0000 C CNN
+F 1 "10k" V 8307 1551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8230 1550 30  0001 C CNN
+F 3 "" H 8300 1550 30  0000 C CNN
+	1    8300 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1800 8500 1800
+Wire Wire Line
+	8300 2650 8300 1900
+Wire Wire Line
+	8300 1900 8500 1900
+Wire Wire Line
+	8500 2000 8500 2300
+Wire Wire Line
+	8500 2300 9850 2300
+Connection ~ 9700 2300
+Wire Wire Line
+	8300 1300 8300 1150
+Connection ~ 9500 1150
+Wire Wire Line
+	950  2550 950  1650
+$Comp
+L CONN_01X02 P7
+U 1 1 56C85E75
+P 1350 2750
+F 0 "P7" H 1350 2900 50  0000 C CNN
+F 1 "J_AllOff" V 1450 2750 50  0000 C CNN
+F 2 "JST:S2B-XH" H 1350 2750 50  0001 C CNN
+F 3 "" H 1350 2750 50  0000 C CNN
+	1    1350 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 2550 2250 2550
+Wire Wire Line
+	2250 2550 2250 3150
+Wire Wire Line
+	2250 3150 3850 3150
+NoConn ~ 3850 3250
+NoConn ~ 3850 3350
+NoConn ~ 3850 3450
+NoConn ~ 7550 4050
+NoConn ~ 7550 4150
+Text GLabel 5600 5350 0    60   Input ~ 0
+GND
+Wire Wire Line
+	5700 5350 5600 5350
+Connection ~ 5700 5350
+Wire Wire Line
+	5700 5050 5700 5350
+Text GLabel 10250 4300 2    60   Input ~ 0
+GND
+Wire Wire Line
+	10150 4150 10150 4300
+Wire Wire Line
+	10150 4300 10250 4300
+Wire Wire Line
+	9850 2300 9850 2200
+Connection ~ 9850 2200
+Wire Wire Line
+	3350 1650 3350 1300
+Connection ~ 3900 1300
+Connection ~ 1900 1650
+Text GLabel 10000 2950 0    60   Input ~ 0
+GND
+Wire Wire Line
+	10000 2950 10100 2950
+$EndSCHEMATC
