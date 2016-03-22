@@ -235,39 +235,26 @@ Text Label 1650 6500 0    60   ~ 0
 Y1
 Text Label 3850 1850 2    60   ~ 0
 Reset
-$Comp
-L CONN_5 SWD1
-U 1 1 53989F52
-P 10400 2000
-F 0 "SWD1" V 10350 2000 50  0000 C CNN
-F 1 "CONN_5" V 10450 2000 50  0000 C CNN
-F 2 "PIN_Hdr:Pin_Header_Straight_1x05" H 10400 2000 60  0001 C CNN
-F 3 "" H 10400 2000 60  0000 C CNN
-	1    10400 2000
-	1    0    0    -1  
-$EndComp
 Text GLabel 9700 1050 1    60   Input ~ 0
 VCC
 $Comp
 L R-RESCUE-YAWC R1
 U 1 1 53989FCC
-P 9700 1400
-F 0 "R1" V 9780 1400 40  0000 C CNN
-F 1 "100k" V 9707 1401 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 1400 30  0001 C CNN
-F 3 "" H 9700 1400 30  0000 C CNN
-	1    9700 1400
-	1    0    0    -1  
+P 9950 1300
+F 0 "R1" V 10030 1300 40  0000 C CNN
+F 1 "100k" V 9957 1301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9880 1300 30  0001 C CNN
+F 3 "" H 9950 1300 30  0000 C CNN
+	1    9950 1300
+	0    -1   -1   0   
 $EndComp
-Text Label 10000 1800 1    60   ~ 0
-Reset
 Text Label 7550 4650 0    60   ~ 0
 SWCLK
 Text Label 7550 4750 0    60   ~ 0
 SWDIO
-Text Label 10000 1900 2    60   ~ 0
+Text Label 10650 2200 2    60   ~ 0
 SWDIO
-Text Label 10000 2000 2    60   ~ 0
+Text Label 10650 2000 2    60   ~ 0
 SWCLK
 Text GLabel 9700 2200 0    60   Input ~ 0
 GND
@@ -342,16 +329,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 1300 5300 1550
 Wire Wire Line
-	9700 1150 9700 1050
+	9700 1050 9700 1300
 Wire Wire Line
-	9700 1650 9700 1800
-Connection ~ 9700 1800
-Wire Wire Line
-	9700 1800 10000 1800
-Wire Wire Line
-	9700 2200 10000 2200
-Wire Wire Line
-	10000 2100 9500 2100
+	9500 2100 10300 2100
 Wire Wire Line
 	9500 2100 9500 1150
 Wire Wire Line
@@ -631,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 4300 10250 4300
 Wire Wire Line
-	9850 2300 9850 2200
+	9850 2300 9850 1700
 Connection ~ 9850 2200
 Wire Wire Line
 	3350 1650 3350 1300
@@ -641,4 +621,44 @@ Text GLabel 10000 2950 0    60   Input ~ 0
 GND
 Wire Wire Line
 	10000 2950 10100 2950
+$Comp
+L ARM_SWD J_SWD1
+U 1 1 56F1158D
+P 10900 1950
+F 0 "J_SWD1" H 10750 2550 60  0000 C CNN
+F 1 "ARM_SWD" H 10900 2450 60  0000 C CNN
+F 2 "My_Pin_Headers:2x5_50mil_SMD" H 10900 1950 60  0001 C CNN
+F 3 "" H 10900 1950 60  0000 C CNN
+	1    10900 1950
+	-1   0    0    1   
+$EndComp
+Connection ~ 9700 1150
+Wire Wire Line
+	10200 1300 10200 1600
+Wire Wire Line
+	10200 1600 10700 1600
+Text Label 10200 1300 0    60   ~ 0
+Reset
+Wire Wire Line
+	10300 2100 10300 2300
+Wire Wire Line
+	10300 2300 10700 2300
+Wire Wire Line
+	9850 2200 9700 2200
+Wire Wire Line
+	9850 1700 10700 1700
+Connection ~ 10250 1700
+Wire Wire Line
+	10250 1700 10250 1900
+Wire Wire Line
+	10250 1900 10700 1900
+Wire Wire Line
+	10350 2100 10700 2100
+Wire Wire Line
+	10350 2100 10350 1900
+Connection ~ 10350 1900
+Wire Wire Line
+	10700 2000 10650 2000
+Wire Wire Line
+	10700 2200 10650 2200
 $EndSCHEMATC

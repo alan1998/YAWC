@@ -74,8 +74,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 1150 1800 2000
 Connection ~ 2200 2000
-Text Label 1800 1550 0    60   ~ 0
-Vbatt
 Text GLabel 3900 1150 1    60   Input ~ 0
 VCC
 Wire Wire Line
@@ -230,10 +228,6 @@ F 3 "" H 1350 1650 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1800 1750 1550 1750
-Wire Wire Line
-	1550 1650 1550 1300
-Wire Wire Line
-	1550 1300 3900 1300
 Connection ~ 3900 1300
 $Comp
 L CONN_01X01 P6
@@ -273,4 +267,12 @@ Connection ~ 3200 2150
 Wire Wire Line
 	3600 1150 1800 1150
 Connection ~ 1800 1750
+Wire Wire Line
+	1550 1650 1650 1650
+Wire Wire Line
+	1650 1650 1650 1300
+Wire Wire Line
+	1650 1300 3900 1300
+Text Label 2200 1550 0    60   ~ 0
+VBatt
 $EndSCHEMATC
