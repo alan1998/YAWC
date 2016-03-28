@@ -258,9 +258,9 @@ Text Label 10650 2000 2    60   ~ 0
 SWCLK
 Text GLabel 9700 2200 0    60   Input ~ 0
 GND
-Text Label 7550 2850 0    60   ~ 0
+Text Label 7550 2750 0    60   ~ 0
 Vib
-Text Label 7550 2950 0    60   ~ 0
+Text Label 7550 2650 0    60   ~ 0
 Bth
 Text GLabel 9400 2800 2    60   Input ~ 0
 Vib
@@ -272,7 +272,7 @@ U 1 1 539AD121
 P 10450 2850
 F 0 "J_Rst1" V 10400 2850 40  0000 C CNN
 F 1 "J_Reset" V 10500 2850 40  0000 C CNN
-F 2 "JST:S2B-XH" H 10450 2850 60  0001 C CNN
+F 2 "JST:B2B-XH" H 10450 2850 60  0001 C CNN
 F 3 "" H 10450 2850 60  0000 C CNN
 	1    10450 2850
 	1    0    0    1   
@@ -341,20 +341,14 @@ Wire Wire Line
 Wire Wire Line
 	7550 3550 9700 3550
 Wire Wire Line
-	7550 3650 9800 3650
-Wire Wire Line
-	10050 4200 10050 4150
-Wire Wire Line
 	7550 3750 9650 3750
-Wire Wire Line
-	10050 3200 10050 3350
 Text Label 10150 3350 0    60   ~ 0
 VCC
 Text Label 9250 3450 0    60   ~ 0
 S1P0
 Text Label 9350 3550 0    60   ~ 0
 S1P1
-Text Label 9950 3350 2    60   ~ 0
+Text Label 9150 3650 2    60   ~ 0
 S1P2
 Text Label 9350 3750 0    60   ~ 0
 S1P3
@@ -396,31 +390,14 @@ Connection ~ 1400 1250
 $Comp
 L CONN_1 ATP2
 U 1 1 539ECD77
-P 7850 2750
-F 0 "ATP2" H 7930 2750 40  0000 L CNN
-F 1 "CONN_1" H 7850 2805 30  0001 C CNN
-F 2 "PIN_Hdr:Pin_Header_Straight_1x01" H 7850 2750 60  0001 C CNN
-F 3 "" H 7850 2750 60  0000 C CNN
-	1    7850 2750
+P 8100 2850
+F 0 "ATP2" H 8180 2850 40  0000 L CNN
+F 1 "CONN_1" H 8100 2905 30  0001 C CNN
+F 2 "PIN_Hdr:Pin_Header_Straight_1x01" H 8100 2850 60  0001 C CNN
+F 3 "" H 8100 2850 60  0000 C CNN
+	1    8100 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7550 2650 8300 2650
-Wire Wire Line
-	7700 2750 7550 2750
-$Comp
-L LED-RESCUE-YAWC D1
-U 1 1 539ED0A8
-P 3350 4050
-F 0 "D1" H 3350 4150 50  0000 C CNN
-F 1 "LED" H 3350 3950 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 3350 4050 60  0001 C CNN
-F 3 "" H 3350 4050 60  0000 C CNN
-	1    3350 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 4050 3850 4050
 $Comp
 L R-RESCUE-YAWC R5
 U 1 1 539ED159
@@ -447,7 +424,6 @@ NoConn ~ 7550 4350
 NoConn ~ 7550 4450
 NoConn ~ 7550 4550
 NoConn ~ 7550 3950
-NoConn ~ 7550 3850
 NoConn ~ 7550 3350
 NoConn ~ 7550 3250
 NoConn ~ 7550 3150
@@ -475,31 +451,9 @@ Wire Wire Line
 	5600 5050 5600 5250
 Connection ~ 5600 5250
 Connection ~ 5700 5250
-Wire Wire Line
-	7700 2750 7700 2850
-Wire Wire Line
-	7700 2850 7850 2850
-Text GLabel 7850 2850 2    60   Input ~ 0
+Text GLabel 7950 2950 2    60   Input ~ 0
 BatSample
-Wire Wire Line
-	9650 3750 9650 4150
-Connection ~ 9650 4150
-Wire Wire Line
-	9650 4150 9950 4150
-Wire Wire Line
-	9250 3200 10050 3200
 Connection ~ 9250 3450
-Wire Wire Line
-	9250 3450 9250 3200
-Wire Wire Line
-	9700 3550 9700 4200
-Connection ~ 9700 4200
-Wire Wire Line
-	9700 4200 10050 4200
-Wire Wire Line
-	9800 3650 9800 3350
-Wire Wire Line
-	9800 3350 9950 3350
 Connection ~ 9150 3650
 Text GLabel 10000 4850 0    60   Input ~ 0
 VCC
@@ -529,12 +483,6 @@ Wire Wire Line
 	2500 4050 2500 4350
 Wire Wire Line
 	3000 4350 3150 4350
-Wire Wire Line
-	3550 4350 3700 4350
-Wire Wire Line
-	3700 4350 3700 4150
-Wire Wire Line
-	3700 4150 3850 4150
 Text Notes 3600 4650 2    60   ~ 0
 2.5mm pitch\nThru hole
 $Comp
@@ -543,7 +491,7 @@ U 1 1 56C85458
 P 8700 1900
 F 0 "P8" H 8700 2100 50  0000 C CNN
 F 1 "J_Pot" V 8800 1900 50  0000 C CNN
-F 2 "JST:S3B-XH" H 8700 1900 50  0001 C CNN
+F 2 "JST:B3B-XH" H 8700 1900 50  0001 C CNN
 F 3 "" H 8700 1900 50  0000 C CNN
 	1    8700 1900
 	1    0    0    -1  
@@ -562,8 +510,6 @@ $EndComp
 Wire Wire Line
 	8300 1800 8500 1800
 Wire Wire Line
-	8300 2650 8300 1900
-Wire Wire Line
 	8300 1900 8500 1900
 Wire Wire Line
 	8500 2000 8500 2300
@@ -581,7 +527,7 @@ U 1 1 56C85E75
 P 1350 2750
 F 0 "P7" H 1350 2900 50  0000 C CNN
 F 1 "J_AllOff" V 1450 2750 50  0000 C CNN
-F 2 "JST:S2B-XH" H 1350 2750 50  0001 C CNN
+F 2 "JST:B2B-XH" H 1350 2750 50  0001 C CNN
 F 3 "" H 1350 2750 50  0000 C CNN
 	1    1350 2750
 	0    1    1    0   
@@ -595,7 +541,6 @@ Wire Wire Line
 NoConn ~ 3850 3250
 NoConn ~ 3850 3350
 NoConn ~ 3850 3450
-NoConn ~ 7550 4050
 NoConn ~ 7550 4150
 Text GLabel 5600 5350 0    60   Input ~ 0
 GND
@@ -661,4 +606,59 @@ Wire Wire Line
 	10700 2000 10650 2000
 Wire Wire Line
 	10700 2200 10650 2200
+Wire Wire Line
+	7550 2850 7950 2850
+Wire Wire Line
+	7850 2850 7850 2950
+Connection ~ 7850 2950
+Wire Wire Line
+	7850 2950 7950 2950
+Connection ~ 7850 2850
+Text Label 8300 1900 0    60   ~ 0
+Pot
+Text Label 7550 2950 0    60   ~ 0
+Pot
+$Comp
+L LED D1
+U 1 1 56F906CE
+P 3350 4050
+F 0 "D1" H 3350 4150 50  0000 C CNN
+F 1 "LED" H 3350 3950 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3350 4050 50  0000 C CNN
+F 3 "" H 3350 4050 50  0000 C CNN
+	1    3350 4050
+	-1   0    0    1   
+$EndComp
+Text Label 9950 3350 1    60   ~ 0
+S1P0
+Wire Wire Line
+	7550 3650 9800 3650
+Text Label 9950 4150 3    60   ~ 0
+S1P1
+Text Label 10050 3350 1    60   ~ 0
+S1P2
+Text Label 10050 4150 3    60   ~ 0
+S1P3
+Wire Wire Line
+	3550 4350 3600 4350
+Wire Wire Line
+	3600 4350 3600 5750
+Wire Wire Line
+	3600 5750 7950 5750
+Wire Wire Line
+	7950 5750 7950 3850
+Wire Wire Line
+	7950 3850 7550 3850
+Wire Wire Line
+	3550 4050 3700 4050
+Wire Wire Line
+	3700 4050 3700 5550
+Wire Wire Line
+	3700 5550 7800 5550
+Wire Wire Line
+	7800 5550 7800 4050
+Wire Wire Line
+	7800 4050 7550 4050
+NoConn ~ 3850 4050
+NoConn ~ 3850 4150
 $EndSCHEMATC
